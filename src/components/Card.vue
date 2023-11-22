@@ -10,7 +10,6 @@
             <div class="city-container">
                 <font-awesome-icon id="location-dot" class="top-content" icon="fa-solid fa-location-dot" />
                 <p id="city-name" class="top-content">{{ city }}</p>
-
                 <img :src="apiCountryURL" alt="Country Flag">
             </div>
             <p>{{ temp }} ºC</p>
