@@ -1,8 +1,7 @@
 <template>
     <div class="card-content">
         <div class="search">
-            <input id="text-box" v-model="citySearch" type="text" placeholder="Name of the city"
-                @keyup.enter="getWeatherData">
+            <input id="text-box" v-model="citySearch" type="text" placeholder="Name of the city" @keyup.enter="getWeatherData">
             <button id="search-btn" @click="getWeatherData">
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
             </button>
